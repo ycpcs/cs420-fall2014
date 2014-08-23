@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>CS 420 - {{ page.title }}</title>
+		<title>{{ page.course_number }} - {{ page.title }}</title>
 		<link rel="stylesheet" href="{{ site.url }}/css/cs101.css" />
 		<link rel="stylesheet" href="{{ site.url }}/css/syntax.css" />
 	</head>
 
 	<body>
 		<div class="pageheader">
-			<h1><a href="{{ site.url }}">CS 420</a>: {{ page.title }}</h1>
+			<h1><a href="{{ site.url }}">{{ page.course_number }}</a>: {{ page.title }}</h1>
 		</div>
 		<div class="content">
 		{{ content }}

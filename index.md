@@ -1,11 +1,15 @@
 ---
 layout: default
+course_number: CS420
 title: Home page
 ---
 
-# Welcome to CS 420, Fall 2014!
+------------------------
+##CS420: Operating Systems
+##Fall 2014
+------------------------
 
-This is the website for CS 420, Fall 2014 at York College.
+This is the website for CS420, Fall 2014 at [York College of Pennsylvania](http://www.ycp.edu).
 All information about the course will be posted here.
 
 ## Links
@@ -14,10 +18,8 @@ All information about the course will be posted here.
 <ul>
   <li><a href="syllabus.html">Syllabus</a></li>
   <li><a href="schedule.html">Schedule</a></li>
-  <li><a href="labs/index.html">Labs</a></li>
-  <li><a href="resources.html">Resources</a></li>
-<!--  <li><a href="submitting.html">Submitting labs and assignments</a></li>-->
-<!--  <li><a href="https://cs.ycp.edu/marmoset">Marmoset (submission server)</a></li>-->
+<!--  <li><a href="labs/index.html">Labs</a></li>-->
+  <li><a href="https://cs.ycp.edu/marmoset">Marmoset (submission server)</a></li>
 </ul>
 </div>
 
