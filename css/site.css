@@ -14,7 +14,7 @@ p {
 .pageheader h1 {
 /* 	color: #141; */
 	font-size: 200%;
-	background: #baf2ff;
+	background: #d3d3d3;
 	border: 1px solid #444;
 	border-radius: 24px;
 	padding: 10px 20px;
@@ -50,7 +50,7 @@ p {
 	margin-bottom: 10px;
 	padding: 10px 30px;
 	text-align: center;
-	background: #ffb;
+	background: #d3d3d3;
 	border: 1px solid #444;
 	border-radius: 16px;
 }
