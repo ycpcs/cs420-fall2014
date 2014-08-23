@@ -8,11 +8,11 @@ The following schedule is subject to change.
 Additional content will be added as it becomes available throughout the semester.
 
 
->| **Date**       |  **Topic**                                        |  **Reading**          |  **Assignments**      |
->| ---------------|:--------------------------------------------------|-----------------------|-----------------------|
+>| **Date**       |  **Topic**                                                                                        |  **Reading**          |  **Assignments**      |
+>| ---------------|:--------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
 >|||||
->| Wed, Aug 27    |  Introduction                                     |  OSC9 § 1.1 - 1.2     |                       |
->| Fri, Aug 29    |  OS Architecture                                  |  OSC9 § 1.3 - 1.13    |                       |
+>| Wed, Aug 27    |  [Introduction & OS Overview](lectures/lecture1+2_introduction_and_os_architecture.pdf)           |  OSC9 § 1.1 - 1.2     |                       |
+>| Fri, Aug 29    |  [OS Overview (Cont.)](lectures/lecture1+2_introduction_and_os_architecture.pdf)                  |  OSC9 § 1.3 - 1.13    |                       |
 >|||||
 >| Mon, Sep 1     |  **NO CLASS**                                     |                       |                       |
 >| Wed, Sep 3     |  Operating System Services & System Calls         |  OSC9 § 2.1 - 2.5     |                       |
