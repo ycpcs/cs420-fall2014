@@ -1,0 +1,13 @@
+CS420
+HW1
+To be submitted in class.
+
+2.13: Describe three general methods for passing parameters to the operating system.
+
+
+
+2.18: What are the two models of interprocess communication? What are the strengths and weaknesses of the two approaches?
+
+
+
+2.22: In what ways is the modular kernel approach similar to the layered approach? In what ways does it differ from the layered approach?
