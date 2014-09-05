@@ -16,7 +16,7 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Sep 1     |  **NO CLASS**                                                                                     |                       |                       |
 >| Wed, Sep 3     |  [Operating System Services & System Calls](lectures/lecture3_services_and_system_calls.pdf)      |  OSC9 § 2.1 - 2.5     |                       |
->| Fri, Sep 5     |  [Operating System Structure](lectures/lecture4_operating_system_structure.pdf)                   |  OSC9 § 2.6 - 2.11    | [Homework #1](homework/Homework_Assignment_1.txt) <br> [Lab #1](labs/lab01.html)    |  <!-- lab01, homework1 -->
+>| Fri, Sep 5     |  [Operating System Structure](lectures/lecture4_operating_system_structure.pdf)                   |  OSC9 § 2.6 - 2.11    | [Homework #1](homework/Homework_Assignment_1.txt) <br> Due 9/12 in class <br>[Lab #1](labs/lab01.html) <br> Due 9/12 by 11:59 PM    |  <!-- lab01, homework1 -->
 >|||||
 >| Mon, Sep 8     |  [Processes](lectures/lecture5_processes.pdf)                                                     |  OSC9 § 3.1 - 3.3     |                       |
 >| Wed, Sep 10    |  [Interprocess Communication](lectures/lecture6a_interprocess_communication.pdf)                  |  OSC9 § 3.4 - 3.7     |                       |

@@ -4,8 +4,6 @@ course_number: CS420
 title: "Lab 1: File Copy"
 ---
 
-**Due Friday, Sept 12th by 11:59pm**
-
 ### About this Lab
 ------------------
 Before starting this lab, you should read Section 2.3 of your text book.
