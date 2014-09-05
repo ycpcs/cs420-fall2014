@@ -28,7 +28,7 @@ Searching for any of the above on Google will typically result in a nicely forma
 <br>
 ### Your Task
 --------------
-Download the lab files [here](labs/lab01_filecopy.zip).
+Download the lab files [here](lab01_filecopy.zip).
 
 Write a C program that uses system calls to copy one file to another. Your program needs to accept two arguments, the first is the source file to be copied, the second is the name of the destination file. Your program should then copy the file, one (or more) character(s) at a time, from the source to the destination. 
 
