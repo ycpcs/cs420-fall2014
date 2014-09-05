@@ -8,63 +8,166 @@ title: "Lab 1: File Copy"
 
 ### About this Lab
 ------------------
-
-This lab is a 'warm-up' lab. Through this lab I hope to get a good feeling for your ability to write progr  ams in **C** and your ability to make use of the **POSIX API** and system calls. For this lab, and the rest of the labs that follow this semester, you are required to develop in a **POSIX-compliant environment**. This includes Linux and UNIX systems. If you have your own Linux or UNIX based system feel free to develop in those environments.  Otherwise, you can use the lab compueters in KEC119.
-
-You can use any code editor you wish, but you can only use C system calls for reading/writing to the terminal screen and/or to the disk when copying your file. You may find the list of C system calls located [here](http://codewiki.wikidot.com/system-calls) useful. Read about them and determine which of the system calls listed there are appropriate for your task as described below. 
-
 Before starting this lab, you should read Section 2.3 of your text book.
+
+This lab is a 'warm-up' lab. Through this lab I hope to get a good feeling for your ability to write programs in **C** and your ability to make use of the **POSIX API** and system calls. For this lab, and the rest of the labs that follow this semester, you are required to develop in a **POSIX-compliant environment**. This includes Linux and UNIX systems. If you have your own Linux or UNIX based system feel free to develop in those environments.  Otherwise, you can use the lab compueters in KEC119.
+
+You can use any code editor you wish, but you can only use C system calls for reading/writing to the terminal screen and/or to the disk when copying your file. You may find the list of C system calls located [here](http://codewiki.wikidot.com/system-calls) useful. Specifically, you will need the following systems calls: **```open```**, **```close```**, **```write```**, and **```stat```**.  You may also find the functions **```strlen```** and **```exit```** useful.  In addition to the website linked above, you can also read about these functions using Linux's built in **man pages** by typing any of the following in your terminal:
+
+<pre>
+<b>man 2 open
+man 2 close
+man 2 write
+man 2 stat
+man 3 strlen
+man 3 exit</b>
+</pre>
+
+Searching for any of the above on Google will typically result in a nicely formatted HTML version of the man page you desire.
+
 
 
 <br>
 ### Your Task
 --------------
-Download the lab files [here]().
+Download the lab files [here](labs/lab01_filecopy.zip).
 
 Write a C program that uses system calls to copy one file to another. Your program needs to accept two arguments, the first is the source file to be copied, the second is the name of the destination file. Your program should then copy the file, one (or more) character(s) at a time, from the source to the destination. 
 
  - You MUST use C system calls to read/write to the terminal and disk
- - A list of the functions you are allowed to use on this lab can be found [here](http://codewiki.wikidot.com/system-calls).
-(**```close```**, **```dup```**, **```dup2```**, **```fstat```**, **```lseek```**, **```lstat```**, **```open```**, **```read```**, **```stat```**, **```write```**)
- - You **CANNOT** use **```fopen```**, **```fclose```**, **```printf```**, **```fprintf```**, **```scanf```**, etc.
- - You may use the **```strlen```** function if necessary
- - Be sure to include the appropriate error checking (e.g. source file does not exist)
- - You don't have to worry about handling filenames with special characters in them (e.g. spaces)
- - Your code **MUST** compile with supplied Makefile. Simply type **```make```** at the command line to compile your code
- - The supplied Makefile also includes a simple test, type **```make test```** to see if your code functions properly
+ 
+ - Use the sources provided above to read about the various systems calls that you'll need before getting started.  A **_BIG_** **_BIG_** **_BIG_** part of this lab is learning how to read documentation.  **If you do not read the documentation carefully, you will not be able to complete this lab.**
 
-An example of what your program should look like when run is below:
+ - You **CANNOT** use **```fopen```**, **```fclose```**, **```printf```**, **```fprintf```**, **```scanf```**, etc.
+
+ - As mentioned above, you will likely want to use the **```strlen```** function
+
+ - **Be sure to include the appropriate error checking (e.g. source file does not exist)**.  Every one of the systems calls will return an error if something goes wrong. **ALWAYS CHECK THE RETURN VALUE OF YOUR SYSTEM CALLS ... ALL OF THEM!**.  If there is a problem, gracefully exit your program by calling **```exit(1)```**.
+
+ - Don't worry about handling filenames with special characters in them (e.g. spaces).
+
+ - Your code **MUST** compile with supplied Makefile. Simply type **```make```** at the command line to compile your code
+
+ - The supplied Makefile also includes a simple test, type **```make test```** to see if your program runs correctly.
+
+
+Below is an example run of the program.
+User input is in **bold**.
 
 <pre>
-$>
-$> ./filecopy hello.txt hello_copy.txt
-   Copying hello.txt to hello_copy.txt
-   DONE
-$>
+<b>./filecopy example.txt example_copy.txt</b>
+Copying hello.txt to hello_copy.txt
+DONE
 </pre>
 
+<br>
+###Running test cases
+----------------------
+The **```Makefile```** distributed with the lab has several test cases built-in
+
+* **TEST#1** - attempts to copy the text file named **```lorem.txt```** which is distributed with the lab
+
+* **TEST#2** - attempts to copy a binary file, your compiled **```filecopy```** program
+
+* **TEST#3** - This test attempts to copy a binary file again. However, this time instead of running **```filecopy```** to copy a file, **```filecopy_copy```** from **TEST #2** is used to copy a file.  This test will check to see that you correctly copied not just the contents of **```filecopy```**, but also that you copied 
+
+
+To run the supplied test cases, type the following:
+
+<pre>
+<b>make test</b>
+</pre>
+
+
+Below is an example run of **```make test```**.
+User input is in **bold**.
+
+<pre>
+<b>make test</b>
+
+=================================
+TEST #1
+Running filecopy on lorem.txt
+=================================
+./filecopy lorem.txt lorem_copy.txt
+  Copying lorem.txt to lorem_copy.txt
+  DONE
+
+=================================
+Checking to see if files differ
+=================================
+
+Files lorem.txt and lorem_copy.txt are identical
+
+=================================
+
+
+=================================
+TEST #2
+Running filecopy on filecopy
+=================================
+./filecopy filecopy filecopy_copy
+  Copying filecopy to filecopy_copy
+  DONE
+
+=================================
+Checking to see if files differ
+=================================
+
+Files filecopy and filecopy_copy are identical
+
+=================================
+
+
+=================================
+TEST #3
+Running filecopy_copy on filecopy
+=================================
+./filecopy_copy filecopy filecopy_copy_2
+  Copying filecopy to filecopy_copy_2
+  DONE
+
+=================================
+Checking to see if files differ
+=================================
+
+Files filecopy and filecopy_copy_2 are identical
+
+=================================
+</pre>
 
 
 <br>
 ### Grading
 ------------
-This lab will be graded on a 100 point scale. To receive full credit, your program must successfully compile and copy files. You may lose points for writing bad code (e.g. not checking error conditions, not closing files when you're done with them). See below for more details:
+This lab will be graded on a 100 point scale. To receive full credit, your program must successfully compile and copy files. See below for more details:
 
- - **10 points** : Successfully compiles
+ - **20 points** : Successfully compiles **WITH NO WARNINGS**
  - **20 points** : Correct use of system calls
- - **30 points** : Successfully copies files
- - **20 points** : Checks necessary error conditions
+ - **20 points** : Successfully copies text files (e.g. TEST #1)
+ - **20 points** : Successfully copies binary files (e.g. TEST #2)
+ - **10 points** : Checks **ALL** necessary error conditions
  - **10 points** : Properly closes files when done
- - **10 points** : Design/coding style
 
 
 
 <br>
 ### Submission
 ---------------
+Before submitting your assignment:
+ 1. run **```make clean```** from the terminal
+ 2. run **```make```** to compile your code from scratch
+ 3. **ADDRESS ANY AND ALL WARNINGS**
+ 4. goto #1 until no more warnings exist
+
+There are **NO** acceptable warnings on this assignment or any other assigning in this course. All warnings are an indication that you've done something incorrectly.
+
+
 When you are done, run the following command from your terminal in the source directory for the project:
 
-	make submit
+<pre>
+<b>make submit</b>
+</pre>
 
 You will be prompted for your Marmoset username and password,
 which you should have received by email.  Note that your password will

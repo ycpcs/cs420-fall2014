@@ -111,7 +111,7 @@ Before submitting your assignment:
  3. **ADDRESS ANY AND ALL WARNINGS**
  4. goto #1 until no more warnings exist
 
-There are NO acceptable warnings on this assignment or any other assigning in this course. All warnings are an indication that you've done something incorrectly.
+There are **NO** acceptable warnings on this assignment or any other assigning in this course. All warnings are an indication that you've done something incorrectly.
 
 
 
