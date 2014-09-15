@@ -20,9 +20,9 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Sep 8     |  [Processes](lectures/lecture5_processes.pdf)                                                     |  OSC9 § 3.1 - 3.3     |                       |
 >| Wed, Sep 10    |  [Interprocess Communication](lectures/lecture6a_interprocess_communication.pdf)                  |  OSC9 § 3.4 - 3.7     |                       |
->| Fri, Sep 12    |  [Interprocess Communication (continued)](lectures/lecture6b_client_server_communication.pdf)     |                       |                       |  <!-- lab02, homework2 -->
+>| Fri, Sep 12    |  [Interprocess Communication (continued)](lectures/lecture6b_client_server_communication.pdf)     |                       | [Homework #2](homework/Homework_Assignment_2.txt) <br> Due 9/19 in class |  <!-- lab02, homework2 -->
 >|||||
->| Mon, Sep 15    |  [Threads](lectures/lecture7_threads.pdf)                                                         |  OSC9 § 4.1 - 4.5     |                       |
+>| Mon, Sep 15    |  [Threads](lectures/lecture7_threads.pdf)                                                         |  OSC9 § 4.1 - 4.5     | [Lab #2](labs/lab02.html) <br> Due 9/26 by 11:59 PM |
 >| Wed, Sep 17    |  [Multithreading & Threading Issues](lectures/lecture8_threading_issues.pdf)                      |  OSC9 § 4.6 - 4.8     |                       |
 >| Fri, Sep 19    |  More on Threading                                                                                |                       |                       |  <!-- homework3 -->
 >|||||

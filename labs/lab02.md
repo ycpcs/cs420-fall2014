@@ -25,7 +25,7 @@ For this lab, you can use **```printf```** and other functions in the **POSIX AP
 
 ### Your Task
 ---------------
-First download the [lab](). I have provided a few files as a starting point. 
+First download the [lab](lab02_shared_memory.zip). I have provided a few files as a starting point. 
 
 Your task is to write two programs (**```mainProc```** and **```childProc```**) that communicate with each other through shared memory. Your main program should accept a single command line argument (an integer) that it will eventually pass to a child process through shared memory. However, before forking off the child process, the main process should use the **```shmget()```** system call to request a chunk of shared memory from the operating system. The amount of memory requested should be **```sizeof(struct ipc_struct)```**. The definition of the **```ipc_struct```** is in the **```ipcEx.h```** header file. Note that the command line argument received by **```mainProc```** can be passed to the child process by storing it in the **```repeat_val```** field of the **```ipc_struct```**.
 
