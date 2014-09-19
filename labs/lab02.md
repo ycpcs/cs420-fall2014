@@ -29,7 +29,7 @@ First download the [lab](lab02_shared_memory.zip). I have provided a few files a
 
 Your task is to write two programs (**```mainProc```** and **```childProc```**) that communicate with each other through shared memory. Your main program should accept a single command line argument (an integer) that it will eventually pass to a child process through shared memory. However, before forking off the child process, the main process should use the **```shmget()```** system call to request a chunk of shared memory from the operating system. The amount of memory requested should be **```sizeof(struct ipc_struct)```**. The definition of the **```ipc_struct```** is in the **```ipcEx.h```** header file. Note that the command line argument received by **```mainProc```** can be passed to the child process by storing it in the **```repeat_val```** field of the **```ipc_struct```**.
 
-After requesting the shared memory from the operating system, the main process should attach to the shared memory using the **```shmget()```** system call. As mentioned in class, the block of shared memory has no structure. To give the shared memory some structure (from the perspective of the main process), you can map an **```ipc_struct```** onto the shared memory as follows:
+After requesting the shared memory from the operating system, the main process should attach to the shared memory using the **```shmat()```** system call. As mentioned in class, the block of shared memory has no structure. To give the shared memory some structure (from the perspective of the main process), you can map an **```ipc_struct```** onto the shared memory as follows:
 
 ```c
 /* declare a pointer to the struct that will be mapped onto shared memory */
