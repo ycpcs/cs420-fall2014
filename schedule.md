@@ -16,17 +16,17 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Sep 1     |  **NO CLASS**                                                                                     |                       |                       | <!-- In 2016, homework #1 goes HERE! -->
 >| Wed, Sep 3     |  [Operating System Services & System Calls](lectures/lecture3_services_and_system_calls.pdf)      |  OSC9 § 2.1 - 2.5     |                       |
->| Fri, Sep 5     |  [Operating System Structure](lectures/lecture4_operating_system_structure.pdf)                   |  OSC9 § 2.6 - 2.11    | [Homework #1](homework/Homework_Assignment_1.txt) <br> Due 9/12 in class <br>[Lab #1](labs/lab01.html) <br> Due 9/12 by 11:59 PM    |  <!-- lab01, homework1 -->
+>| Fri, Sep 5     |  [Operating System Structure](lectures/lecture4_operating_system_structure.pdf)                   |  OSC9 § 2.6 - 2.11    | [Homework #1](homework/Homework_Assignment_1.txt) <br> Due 9/12 in class <br>[Lab #1](labs/lab01.html) <br> Due 9/12 by 11:59 PM    |  <!-- lab01 -->
 >|||||
->| Mon, Sep 8     |  [Processes](lectures/lecture5_processes.pdf)                                                     |  OSC9 § 3.1 - 3.3     |                       |
+>| Mon, Sep 8     |  [Processes](lectures/lecture5_processes.pdf)                                                     |  OSC9 § 3.1 - 3.3     |                       | <!-- In 2016, homework #2 goes HERE! -->
 >| Wed, Sep 10    |  [Interprocess Communication](lectures/lecture6a_interprocess_communication.pdf)                  |  OSC9 § 3.4 - 3.7     |                       |
->| Fri, Sep 12    |  [Interprocess Communication (continued)](lectures/lecture6b_client_server_communication.pdf)     |                       | [Homework #2](homework/Homework_Assignment_2.txt) <br> Due 9/19 in class |  <!-- lab02, homework2 -->
+>| Fri, Sep 12    |  [Interprocess Communication (continued)](lectures/lecture6b_client_server_communication.pdf)     |                       | [Homework #2](homework/Homework_Assignment_2.txt) <br> Due 9/19 in class |  <!-- lab02 -->
 >|||||
->| Mon, Sep 15    |  [Threads](lectures/lecture7_threads.pdf)                                                         |  OSC9 § 4.1 - 4.5     | [Lab #2](labs/lab02.html) <br> Due 9/26 by 11:59 PM |
+>| Mon, Sep 15    |  [Threads](lectures/lecture7_threads.pdf)                                                         |  OSC9 § 4.1 - 4.5     | [Lab #2](labs/lab02.html) <br> Due 9/26 by 11:59 PM | <!-- In 2016, homework #3 goes HERE! -->
 >| Wed, Sep 17    |  [Multithreading & Threading Issues](lectures/lecture8_threading_issues.pdf)                      |  OSC9 § 4.6 - 4.8     |                       |
->| Fri, Sep 19    |  More on Threading                                                                                |                       | [Homework #3](homework/Homework_Assignment_3.txt) <br> Due 9/26 in class |  <!-- homework3 -->
+>| Fri, Sep 19    |  More on Threading                                                                                |                       |                       |
 >|||||
->| Mon, Sep 22    |  [CPU Scheduling](lectures/lecture9_cpu_scheduling.pdf)                                           |  OSC9 § 6.1 - 6.4     |                       |
+>| Mon, Sep 22    |  [CPU Scheduling](lectures/lecture9_cpu_scheduling.pdf)                                           |  OSC9 § 6.1 - 6.4     | [Homework #3](homework/Homework_Assignment_3.txt) <br> Due 9/26 in class |
 >| Wed, Sep 24    |  [CPU Scheduling (continued)](lectures/lecture9_cpu_scheduling.pdf)                               |                       |                       |
 >| Fri, Sep 26    |  [Multiple-Processor Scheduling](lectures/lecture10_multiprocessor_scheduling.pdf)                |  OSC9 § 6.5 - 6.9     |                       |  <!-- homework4 -->
 >|||||
