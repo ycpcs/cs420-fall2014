@@ -28,7 +28,7 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Sep 22    |  [CPU Scheduling](lectures/lecture9_cpu_scheduling.pdf)                                           |  OSC9 § 6.1 - 6.4     | [Homework #3](homework/Homework_Assignment_3.txt) <br> Due 9/26 in class |
 >| Wed, Sep 24    |  [CPU Scheduling (continued)](lectures/lecture9_cpu_scheduling.pdf)                               |                       |                       |
->| Fri, Sep 26    |  [Multiple-Processor Scheduling](lectures/lecture10_multiprocessor_scheduling.pdf)                |  OSC9 § 6.5 - 6.9     |                       |  <!-- homework4 -->
+>| Fri, Sep 26    |  [Multiple-Processor Scheduling](lectures/lecture10_multiprocessor_scheduling.pdf)                |  OSC9 § 6.5 - 6.9     | [Homework #4](homework/Homework_Assignment_4.txt) |  <!-- homework4 -->
 >|||||
 >| Mon, Sep 29    |  Review for Exam #1                                                                               |                       |                       |
 >| Wed, Oct 1     |  **Exam #1**                                                                                      |                       |                       |
