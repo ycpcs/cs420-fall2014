@@ -153,6 +153,7 @@ This lab will be graded on a 100 point scale. To receive full credit, your progr
 ### Submission
 ---------------
 Before submitting your assignment:
+
  1. run **```make clean```** from the terminal
  2. run **```make```** to compile your code from scratch
  3. **ADDRESS ANY AND ALL WARNINGS**
