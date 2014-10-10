@@ -34,9 +34,9 @@ Additional content will be added as it becomes available throughout the semester
 >| Wed, Oct 1     |  **Exam #1**                                                                                      |                       |                       |
 >| Fri, Oct 3     |  [Process Synchronization](lectures/lecture11_process_synchronization.pdf)                        |  OSC9 § 5.1 - 5.6     |                       |
 >|||||
->| Mon, Oct 6     |  [Semaphores](lectures/lecture11_process_synchronization.pdf)                                     |  OSC9 § 5.1 - 5.6     |                       |  <!-- lab03 -->
+>| Mon, Oct 6     |  [Semaphores](lectures/lecture11_process_synchronization.pdf)                                     |  OSC9 § 5.1 - 5.6     |                       |  
 >| Wed, Oct 8     |  [Classic Problems of Synchronization](lectures/lecture12_classic_synchronization_problems.pdf)   |  OSC9 § 5.7 - 5.11    |                       |
->| Fri, Oct 10    |  More on Semaphores and Synchronization                                                           |                       |                       |
+>| Fri, Oct 10    |  More on Semaphores and Synchronization                                                           |                       | [Lab #3](labs/lab03.html) <br> Due 10/31 by 11:59 PM  |  <!-- lab03 -->
 >|||||
 >| Mon, Oct 13    |  **NO CLASS - Fall Break**                                                                        |                       |                       |
 >| Wed, Oct 15    |  [Deadlocks & Deadlock Prevention](lectures/lecture13+14+15_deadlock.pdf)                         |  OSC9 § 7.1 - 7.4     |                       |
@@ -48,7 +48,7 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Oct 27    |  [Virtual Memory](lectures/lecture18_virtual_memory.pdf)                                          |  OSC9 § 9.2 - 9.6     |                       |
 >| Wed, Oct 29    |  [Virtual Memory (continued)](lectures/lecture18_virtual_memory.pdf)                              |                       |                       |
->| Fri, Oct 31    |  [Virtual Memory (continued)](lectures/lecture18_virtual_memory.pdf)                              |                       |                       |  <!-- <!-- lab04, homework7 -->
+>| Fri, Oct 31    |  [Virtual Memory (continued)](lectures/lecture18_virtual_memory.pdf)                              |                       |                       |  <!-- lab04, homework7 -->
 >|||||
 >| Mon, Nov 3     |  Review for Exam #2                                                                               |                       |                       |
 >| Wed, Nov 5     |  **Exam #2**                                                                                      |                       |                       |
