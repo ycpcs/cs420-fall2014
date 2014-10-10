@@ -57,6 +57,20 @@ When your program is run from the command line, your main process should create 
 
 Next, your main process will need to create a **named semaphore**. A named semaphore is maintained by the operating system and is very easy to share between unrelated processes. There is no need to manually created a shared memory space that would be required of other types of semaphores and mutexes (in other words, you're getting off easy here). You can read everything you need to know about semaphores and named semaphores [here](http://www.linuxdevcenter.com/pub/a/linux/2007/05/24/semaphores-in-linux.html?page=1). Please read ALL six pages of the linked semaphore documentation before proceeding. When you're ready to create your named semaphore, **use your YCP login name as the name for your semaphore**.
 
+Be sure that you also destroy the named semaphore prior to terminating your program.  You need to destroy the semaphore if your program exits normally.  You will also need to destroy the semaphore if you've created it and your program exits with an error.
+
+**NOTE:** While debugging your code, you may end up in a situation where you've created and locked the named semaphore and neglected to unlock or delete the semaphore prior to exiting.  For a named semaphore that is managed by the operating system, this means that the next time you attempt to run your program you won't be able to acquire the semaphore.  Before each time you run your program, be sure to verify that you don't have an existing semaphore from a previous run.
+
+To check for existing named semaphores, type the following in your terminal:
+
+    ls /dev/shm/sem.*
+
+If you see a semaphore that includes your username, then you failed to delete it properly.  You can manually delete the semaphore now by typing the following in your terminal:
+
+    rm /dev/shm/sem.$username
+    
+where **```$username```** represents your username.
+
 
 <br>
 ### 4. Process Creation
