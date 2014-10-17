@@ -40,7 +40,7 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Oct 13    |  **NO CLASS - Fall Break**                                                                        |                       |                       |
 >| Wed, Oct 15    |  [Deadlocks & Deadlock Prevention](lectures/lecture13+14+15_deadlock.pdf)                         |  OSC9 § 7.1 - 7.4     |                       |
->| Fri, Oct 17    |  [Deadlock Avoidance](lectures/lecture13+14+15_deadlock.pdf)                                      |  OSC9 § 7.5           |                       |  <!-- homework5 -->
+>| Fri, Oct 17    |  [Deadlock Avoidance](lectures/lecture13+14+15_deadlock.pdf)                                      |  OSC9 § 7.5           | [Homework #5](homework/Homework_Assignment_5.txt) <br> Due 10/22 in class |  <!-- homework5 -->
 >|||||
 >| Mon, Oct 20    |  [Deadlock Detection, and Recovery](lectures/lecture13+14+15_deadlock.pdf)                        |  OSC9 § 7.6 - 7.8     |                       |
 >| Wed, Oct 22    |  [Main Memory - Swapping and Allocation](lectures/lecture16_main_memory.pdf)                      |  OSC9 § 8.1 - 8.4     |                       |
