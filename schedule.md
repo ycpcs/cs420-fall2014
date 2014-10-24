@@ -44,7 +44,7 @@ Additional content will be added as it becomes available throughout the semester
 >|||||
 >| Mon, Oct 20    |  [Deadlock Detection, and Recovery](lectures/lecture13+14+15_deadlock.pdf)                        |  OSC9 § 7.6 - 7.8     |                       |
 >| Wed, Oct 22    |  [Main Memory - Swapping and Allocation](lectures/lecture16_main_memory.pdf)                      |  OSC9 § 8.1 - 8.4     |                       |
->| Fri, Oct 24    |  [Paging & Paging Tables](lectures/lecture17_paging_and_page_tables.pdf)                          |  OSC9 § 8.5 - 8.6     |                       |  <!-- homework6 -->
+>| Fri, Oct 24    |  [Paging & Paging Tables](lectures/lecture17_paging_and_page_tables.pdf)                          |  OSC9 § 8.5 - 8.6     | [Homework #6](homework/Homework_Assignment_6.txt) <br> Due 11/3 in class |  <!-- homework6 -->
 >|||||
 >| Mon, Oct 27    |  [Virtual Memory](lectures/lecture18_virtual_memory.pdf)                                          |  OSC9 § 9.2 - 9.6     |                       |
 >| Wed, Oct 29    |  [Virtual Memory (continued)](lectures/lecture18_virtual_memory.pdf)                              |                       |                       |
