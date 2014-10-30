@@ -32,7 +32,10 @@ Answer the following questions using the banker’s algorithm:
 
 a) What is the content of the matrix Need?
 
-b) Is the system in a safe state?
+b) Is the system in a safe state?  If so, provide a sequence that would allow all 
+processes to run to completion
 
 c) If a request from process P1 arrives for (0,4,2,0), can the request be granted 
-immediately?
+immediately (i.e. is would the system still be in a safe state if the request were
+granted)?  If so, provide a safe sequence that would allow all processes to run to
+completion.
