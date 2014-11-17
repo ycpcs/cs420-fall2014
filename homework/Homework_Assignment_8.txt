@@ -3,23 +3,21 @@ HW8
 To be submitted in class.
 
 
-11.1:  Consider a file currently consisting of 100 blocks. Assume that the file-control block (and the index block, in the case of indexed allocation) is already in memory. Calculate how many disk I/O operations are required for contiguous, linked, and indexed (single-level) allocation strategies, if, for one block, the following conditions hold. In the contiguous-allocation case, assume that there is no room to grow at the beginning but there is room to grow at the end. Also assume that the block information to be added is stored in memory.
+1)  Consider a file currently consisting of 100 blocks. Assume that the file-control block (and the index block, in the case of indexed allocation) is already in memory. Calculate how many disk I/O operations are required for contiguous, linked, and indexed (single-level) allocation strategies, if, for one block, the following conditions hold. In the contiguous-allocation case, assume that there is no room to grow at the beginning but there is room to grow at the end. Also assume that the block information to be added is stored in memory.
 
-    a) The block is added at the beginning.    b) The block is added in the middle.    c) The block is added at the end.    d) The block is removed from the beginning.    e) The block is removed from the middle.    f) The block is removed from the end.11.3:  Why must the bit map for file allocation be kept on mass storage, rather than in main memory?11.5:  One problem with contiguous allocation is that the user must preallocate enough space for each file. If the file grows to be larger than the space allocated for it, special actions must be taken. One solution to this problem is to define a file structure consisting of an initial contiguous area (of a specified size). If this area is filled, the operating system automatically defines an overflow area that is linked to the initial contiguous area. If the overflow area is filled, another overflow area is allocated. Compare this implementation of a file with the standard contiguous and linked implementations.
+    a) The block is added at the beginning.    b) The block is added in the middle.    c) The block is added at the end.    d) The block is removed from the beginning.    e) The block is removed from the middle.    f) The block is removed from the end.2)  Why must the bit map for file allocation be kept on mass storage, rather than in main memory?
 
-
-
-11.10:  What are the advantages of the variation of linked allocation that uses a FAT to chain together the blocks of a file?
+3)  What are the advantages of the variation of linked allocation that uses a FAT to chain together the blocks of a file?
 
 
 
-12.15: None of the disk-scheduling disciplines, except FCFS, is truly fair (starvation may occur).
+4) None of the disk-scheduling disciplines, except FCFS, is truly fair (starvation may occur).
 
     a) Explain why this assertion is true.    b) Describe a way to modify algorithms such as SCAN to ensure fairness.
 
 
 
-** 12.16 **:  Suppose that a disk drive has 5000 cylinders, numbered 0 to 4999. The drive is currently serving a request at cylinder 143, and the previous request was at cylinder 125. The queue of pending requests, in FIFO order, is:
+5)  Suppose that a disk drive has 5000 cylinders, numbered 0 to 4999. The drive is currently serving a request at cylinder 143, and the previous request was at cylinder 125. The queue of pending requests, in FIFO order, is:
 
     86, 1470, 913, 1774, 948, 1509, 1022, 1750, 130
 

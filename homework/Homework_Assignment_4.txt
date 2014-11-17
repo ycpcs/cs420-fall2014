@@ -4,7 +4,7 @@ To be submitted in class.
 
 
 
-5.3: Suppose that the following processes arrive for execution at the times indicated.  Each process
+1) Suppose that the following processes arrive for execution at the times indicated.  Each process
 will run for the amount of time listed.  In answering the questions, use nonpreemptive scheduling, and
 base all decisions on the information you have at the time the decision must be made.
 
@@ -21,11 +21,11 @@ b) What is the average turnaround time for these processes with the SJF scheduli
 
 
 
-5.9: Why is it important for the scheduler to distinguish I/O-bound programs from CPU-bound programs?
+2) Why is it important for the scheduler to distinguish I/O-bound programs from CPU-bound programs?
 
 
 
-5.12: Consider the following set of processes, with the length of the CPU burst given in milliseconds:
+3) Consider the following set of processes, with the length of the CPU burst given in milliseconds:
 
     Process    Burst Time    Priority
     -------    ----------    --------
@@ -53,7 +53,7 @@ d) Which of the algorithms results in the minimum average waiting time (over all
 
 
 
-5.13: Which of the following scheduling algorithms could result in starvation?
+4) Which of the following scheduling algorithms could result in starvation?
 
 a) First-come, first served
 b) Shortest job first
@@ -62,7 +62,7 @@ d) Priority
 
 
 
-5.14: Consider a variant of the RR scheduling algorithm in which the entries in the ready queue are pointers to the PCBs.
+5) Consider a variant of the RR scheduling algorithm in which the entries in the ready queue are pointers to the PCBs.
 
 a) What would be the effect of putting two pointers to the same process in the ready queue?
 

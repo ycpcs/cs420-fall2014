@@ -58,9 +58,9 @@ Additional content will be added as it becomes available throughout the semester
 >| Wed, Nov 12    |  [File-System Implementation (continued)](lectures/lecture20+21_file_system_implementation.pdf)   |                       |                       |
 >| Fri, Nov 14    |  [Mass Storage Structure](lectures/lecture22_mass_storage_structure.pdf)                          |  OSC9 § 10.1 - 10.6   |                       |  
 >|||||
->| Mon, Nov 17    |  [RAID Structure](lectures/lecture23_RAID.pdf)                                                    |  OSC9 § 10.7 - 10.9   |                       |
+>| Mon, Nov 17    |  [RAID Structure](lectures/lecture23_RAID.pdf)                                                    |  OSC9 § 10.7 - 10.9   | [Homework #8](homework/Homework_Assignment_8.txt) <br> Due 11/24 in class | <!-- homework8 -->
 >| Wed, Nov 19    |  [I/O Systems](lectures/lecture24_io_systems.pdf)                                                 |  OSC9 § 13.1 - 13.3   |                       |
->| Fri, Nov 21    |  [Kernel I/O](lectures/lecture25_kernel_io.pdf)                                                   |  OSC9 § 13.4 - 13.8   |                       |  <!-- homework8 -->
+>| Fri, Nov 21    |  [Kernel I/O](lectures/lecture25_kernel_io.pdf)                                                   |  OSC9 § 13.4 - 13.8   |                       |
 >|||||
 >| Mon, Nov 24    |  [Security Issues - Trojan Horses, Viruses, etc.](lectures/lecture26_security_issues.pdf)         |  OSC9 § 15.1 - 15.3   |                       |
 >| Wed, Nov 26    |  **NO CLASS - Thanksgiving Break**                                                                |                       |                       |

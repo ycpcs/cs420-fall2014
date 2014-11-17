@@ -3,20 +3,20 @@ HW5
 To be submitted in class.
 
 
-7.11: Consider the deadlock situation that could occur in the dining-philosophers 
+1) Consider the deadlock situation that could occur in the dining-philosophers 
 problem when the philosophers obtain the chopsticks one at a time. Discuss how the 
 four necessary conditions for deadlock indeed hold in this setting. Discuss how 
 deadlocks could be avoided by eliminating any one of the four conditions.
 
 
 
-7.15: Consider a system consisting of four resources of the same type that are shared 
+2) Consider a system consisting of four resources of the same type that are shared 
 by three processes, each of which needs at most two resources. Show that the system is 
 deadlock-free.
 
 
 
-7.20: Consider the following snapshot of a system:
+3) Consider the following snapshot of a system:
 
     Process     Allocation         Max         Available
     -------    ------------    -----------    -----------

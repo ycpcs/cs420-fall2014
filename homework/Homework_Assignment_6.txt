@@ -3,14 +3,14 @@ HW6
 To be submitted in class.
 
 
-8.11: Given five memory partitions of 100 KB, 500 KB, 200 KB, 300 KB, and 
+1) Given five memory partitions of 100 KB, 500 KB, 200 KB, 300 KB, and 
 600 KB (in order), how would each of the first-fit, best-fit, and worst-fit 
 algorithms place processes of 212 KB, 417 KB, 112 KB, and 426 KB (in order)? 
 Which algorithm makes the most efficient use of memory?
 
 
 
-8.17: Assuming a 1 KB page size, what are the page numbers and offsets for 
+2) Assuming a 1 KB page size, what are the page numbers and offsets for 
 the following address references (provided as decimal numbers).  Assume that 
 both pages and page offsets are indexed starting at 0.  That is, the first 
 page is page 0.  
@@ -23,7 +23,7 @@ page is page 0.
 
 
 
-8.18: Consider a logical address space of 32 pages with 1024 words per page; 
+3) Consider a logical address space of 32 pages with 1024 words per page; 
 mapped onto a physical memory of 16 frames.
 
     a) How many bits are required in the logical address?
@@ -31,7 +31,7 @@ mapped onto a physical memory of 16 frames.
 
 
 
-8.20: Consider a paging system with the page table stored in memory.
+4) Consider a paging system with the page table stored in memory.
 
     a) If a memory reference takes 200 nanoseconds, how long does a paged 
        memory reference take?

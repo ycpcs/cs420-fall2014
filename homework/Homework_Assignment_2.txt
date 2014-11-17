@@ -2,7 +2,7 @@ CS420
 HW2
 To be submitted in class.
 
-3.9: Including the initial parent process, how many processes are created by the program shown below?  Briefly explain how you arrived at your answer.
+1) Including the initial parent process, how many processes are created by the program shown below?  Briefly explain how you arrived at your answer.
 
     #include <stdio.h>
     #include <unistd.h>
@@ -23,7 +23,7 @@ To be submitted in class.
 
 
 
-3.10: Using the program below, identify the values of pid at lines A, B, C, and D.  (Assume that the actual pids of the parent and child are 2600 and 2603, respectively.)  Explain how you arrived at your answer.
+2) Using the program below, identify the values of pid at lines A, B, C, and D.  (Assume that the actual pids of the parent and child are 2600 and 2603, respectively.)  Explain how you arrived at your answer.
 
     #include <sys/types.h>
     #include <stdio.h>
@@ -57,7 +57,7 @@ To be submitted in class.
 
 
 
-3.13: Using the program shown below, EXPLAIN what the output will be at Line A.  That is, don't simply write down what the output is.  Determine what the output is, and explain how you arrived at your answer.
+3) Using the program shown below, EXPLAIN what the output will be at Line A.  That is, don't simply write down what the output is.  Determine what the output is, and explain how you arrived at your answer.
 
     #include <sys/types.h>
     #include <stdio.h>
