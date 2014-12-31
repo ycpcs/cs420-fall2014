@@ -73,6 +73,13 @@ Additional content will be added as it becomes available throughout the semester
 >| Mon, Dec 8     |  **Final Exam**                                                                                   |                       |                       |
 
 
+<!--
+For Fall 2015
+Ditch I/O Systems and Kernel I/O
+Extend Security Issues to 3 days
+Include Cryptography if there is time
+-->
+
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
