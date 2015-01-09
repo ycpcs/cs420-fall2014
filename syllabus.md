@@ -6,7 +6,7 @@ title: Syllabus
 
 ------------------
 ##CS420: Operating Systems
-##Fall 2014 
+##Fall 2014
 ------------------
 
 
